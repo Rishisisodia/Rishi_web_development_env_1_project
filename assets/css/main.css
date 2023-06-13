@@ -1,0 +1,191 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+section{
+	padding: 80px 0;
+}
+
+body{
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+h1{
+	color: black;
+	font-size: 40px;
+	text-transform: capitalize;
+}
+
+a{
+	text-transform: capitalize;
+	text-decoration: none;
+	color: black;
+}
+
+.container{
+	max-width: 1000px;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.main-header{
+	background-color: white;
+	opacity: 80%;
+	position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.main-header .container{
+	max-width: 1200px;
+	width: 90%;
+}
+
+.header-flex{
+	display: flex;
+	justify-content: space-between;
+	height: 60px;
+	align-items: center;
+}
+
+.logo{
+	color: black;
+	font-size: 20px;
+	text-transform: capitalize;
+}
+
+.nav-list{
+
+	display: flex;
+	list-style: none;
+	gap: 40px;
+}
+
+li{
+	color: white;
+	font-size: 18px;
+}
+
+li:hover{
+	opacity: 80%;
+}
+
+.btn1{
+	display: inline-block;
+	background:#f72e2f;
+	color: white;
+	font-size: 14px;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 10px 20px;
+	text-decoration: none;
+	transition: 0.5;
+	border-radius: 5px;
+}
+
+.btn1:hover{
+	color:#f72e2f ;
+	background: white;	
+}
+
+.big-banner{
+	background: url( https://static.vecteezy.com/system/resources/previews/003/823/542/original/spices-for-use-as-cooking-ingredients-on-a-wooden-background-with-fresh-vegetables-healthy-food-herbs-organic-vegetables-on-the-table-raw-materials-of-cooking-preparation-tom-yum-free-photo.jpg);
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	min-height: 100vh;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.box{
+	max-width: 500px;
+	text-align: center;
+
+}
+
+.box h2{
+	color: white;
+	font-size: 14px;
+	font-weight: 300;
+	margin-bottom: 20px;
+	letter-spacing: 3px;
+	text-transform:capitalize;
+	opacity: 80%;
+}
+
+.box h1{
+	color: white;
+	font-size: 50px;
+	font-weight: 700;
+	margin-bottom: 20px;
+	text-transform: capitalize;
+	opacity: 80%;
+}
+
+.box p{
+	color: white;
+	font-size: 16px;
+	margin-bottom: 20px;
+	opacity: 80%;
+}
+
+.product{
+	padding: 80px 0;
+}
+
+.product-flex{
+	display: flex;
+	gap: 80px;
+	align-items: center;
+}
+
+.left{
+	width: 50%;
+}
+
+.left h1 {
+	text-transform: capitalize;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+.left p{
+	font-size: 14px;
+	margin-bottom: 30px;
+}
+
+.right{
+	width: 50%;
+	background-image: url(https://img.freepik.com/free-photo/front-view-tasty-meat-burger-with-cheese-salad-dark-background_140725-89597.jpg);
+	background-position: center;
+	background-size: cover;
+	height: 300px;
+}
+
+.btn2{
+	display: inline-block;
+	background:#f72e2f;
+	color: white;
+	font-size: 14px;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 10px 20px;
+	text-decoration: none;
+	transition: 0.5;
+	border-radius: 5px;
+	border:1px solid transparent;
+}
+
+.btn2:hover{
+	color:#f72e2f ;
+	background: white;
+	border:1px solid #f72e2f ;
+
+
+
